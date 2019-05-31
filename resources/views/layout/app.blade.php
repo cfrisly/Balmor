@@ -20,6 +20,17 @@
 		<a href="home.html" class="logo-area">
 			<img src="img/logo.png" alt="">
 		</a>
+		<div class="nav-switch">
+			<i class="fa fa-bars"></i>
+		</div>
+		<div class="phone-number">(502)54695664</div>
+		<nav class="nav-menu">
+			<ul>
+				<li class="active"><a href="#">Inicio</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Servicio</a></li>
+			</ul>
+		</nav>
 	</header>
 	@yield('contenido')
 </body>
